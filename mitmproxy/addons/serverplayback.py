@@ -303,3 +303,7 @@ class ServerPlayback:
                 )
                 f.response = http.Response.make(int(ctx.options.server_replay_extra))
                 f.is_replay = "response"
+            else:
+                self.add_flows([f])
+        else:
+            self.add_flows([f])
