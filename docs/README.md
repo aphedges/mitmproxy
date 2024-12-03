@@ -4,7 +4,7 @@ This directory houses the mitmproxy documentation available at <https://docs.mit
 
 ## Prerequisites
 
- 1. Install [hugo "extended"](https://gohugo.io/getting-started/installing/). 
+ 1. Install [Hugo extended edition](https://gohugo.io/installation/). 
  2. Windows users: Depending on your git settings, you may need to manually create a symlink from `/docs/src/examples` to `/examples`.
 
 ## Editing docs locally
