@@ -72,7 +72,7 @@ basic test suite with [tox](https://tox.readthedocs.io/):
 tox -e py      # runs Python tests
 ```
 
-Our CI system has additional tox environments that are run on every pull request (see [tox.ini](./tox.ini)).
+Our CI system has additional tox environments that are run on every pull request (see `[tool.tox]` in [pyproject.toml](./pyproject.toml)).
 
 For speedier testing, you can also run [pytest](http://pytest.org/) directly on individual test files or folders:
 
